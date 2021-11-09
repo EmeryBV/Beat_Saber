@@ -1,0 +1,58 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-abc965e026437be14828c45628a3df21
+# Starting compiling UnityEngine.UI.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b27c4f8a372e74f0dbd1a1e065f18c5f
+# Starting compiling UnityEditor.TestRunner.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b535b0bf3326f6bc69d724517c2e5c0a
+# Starting compiling UnityEditor.UI.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f0ce5f108f86b31b48d1397bb620fc83
+# Starting compiling Unity.VSCode.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9e404f69762c2ecf28f92b3d5030e239
+# Starting compiling Unity.Postprocessing.Runtime.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5ce8bc5a1e190df469f5fd803e34a0be
+# Starting compiling Unity.VisualStudio.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1e54e4210d18ad9d294590b2b0f15a29
+# Starting compiling Oculus.Platform.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3f124a2f67aed7fff8e93be951794542
+# Starting compiling Oculus.VR.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5d18c27fc1be217e7965755e7199b356
+# Starting compiling Oculus.Spatializer.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c4e9a86fa81c0b685acdc09d23516406
+# Starting compiling Unity.Timeline.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-88f9c92c0caa022c59ba27d7c4ecdcd2
+# Starting compiling Unity.TextMeshPro.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2a47b8b09b9aa3cc8ab9af4251e86076
+# Starting compiling Unity.CollabProxy.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-338c8773408d61e25b727cede9c62ed8
+# Starting compiling Unity.PlasticSCM.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1441a2c78353464ee8a5f730320476d9
+# Starting compiling Unity.Rider.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2d7c3c1b729ebc47a906f9d821f4e5a2
+# Starting compiling Oculus.LipSync.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cd0ec058b83a5aea5bf9a48d1fd74b00
+# Starting compiling Oculus.AudioManager.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b377c52e00926616ea1a95de18211ae4
+# Starting compiling Oculus.Spatializer.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1c1554f400f5b3f189ddb4f3a65f8397
+# Starting compiling Oculus.LipSync.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5d8669c1817f099dfa25258bae37f760
+# Starting compiling Unity.Timeline.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0336009af396677f49e9f9ddea642802
+# Starting compiling Oculus.AudioManager.Audio.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d68b13a85870a4ec6a9420feed5d78dd
+# Starting compiling Oculus.AudioManager.Utils.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3dce27ad73eaa944bb09829b5ab82ea5
+# Starting compiling Unity.Postprocessing.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e50ebb7188f11c683ace79b771ff6653
+# Starting compiling Oculus.Platform.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5f0571df08d24a373a32497b1cce805b
+# Starting compiling Oculus.VR.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d629fd2fb996540ab89ccd6b53550444
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a2be20a404a5081caa142419ac74de7d
+# Starting compiling Oculus.VR.Scripts.Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6adbbea81e4aa7945b7f2bace7a2cd77
+# Starting compiling Assembly-CSharp.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-eafad00a2ea4ccc319f1c9166464587f
+# Starting compiling Assembly-CSharp-Editor.dll
+/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7c7f83a38313df461a8ce15e27514783

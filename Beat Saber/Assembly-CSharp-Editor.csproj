@@ -54,13 +54,13 @@
   <ItemGroup>
      <Compile Include="Assets\Oculus\SampleFramework\Core\Gradle\Editor\Utils.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Editor\OVROverlayCanvasEditor.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildSamples.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Firebase\Editor\FirebaseEnabler.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor\TeleportTransitionWarpInspector.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\MediaPlayerImageEditor.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Firebase\Editor\FirebaseEnabler.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -293,19 +293,19 @@
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -656,46 +656,46 @@
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/Jeu serieux/When-I-Was/When-I-Was/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -703,9 +703,17 @@
       <Project>{e4428452-5d5e-04e1-2197-2a5818f0613f}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{1330c99e-b4a5-c3cf-c9a9-64f61990e9b3}</Project>
-      <Name>Oculus.Spatializer.Editor</Name>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{5b484944-c2e7-e1d2-9b6d-8789af4b05f8}</Project>
+      <Name>Oculus.VR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.csproj">
+      <Project>{da48c5c0-b5df-a4be-b935-54c0cd854435}</Project>
+      <Name>Oculus.AudioManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{9f18f399-0463-e921-ad03-81db624f1e13}</Project>
+      <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
       <Project>{5fc21574-510a-8a7c-6105-f162e85261ad}</Project>
@@ -719,37 +727,29 @@
       <Project>{92fcf913-f91c-d91f-9767-1c2456db768e}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{9f18f399-0463-e921-ad03-81db624f1e13}</Project>
-      <Name>Oculus.VR.Scripts.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{cd91758a-5263-f315-d509-4a4d35998577}</Project>
-      <Name>Oculus.Platform.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{6ef70204-ebc1-d513-9a52-c8a650c3c573}</Project>
-      <Name>Oculus.LipSync</Name>
+    <ProjectReference Include="Oculus.Spatializer.csproj">
+      <Project>{6c6fa795-ddbc-c885-9d04-c5ec8a50ab5b}</Project>
+      <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{faf2acd3-eee2-2fb0-f0b4-228477294f44}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{da48c5c0-b5df-a4be-b935-54c0cd854435}</Project>
-      <Name>Oculus.AudioManager</Name>
+    <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
+      <Project>{1330c99e-b4a5-c3cf-c9a9-64f61990e9b3}</Project>
+      <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{cd91758a-5263-f315-d509-4a4d35998577}</Project>
+      <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
       <Project>{f70ba6bc-3a12-e730-0039-46cdd4174c95}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{6c6fa795-ddbc-c885-9d04-c5ec8a50ab5b}</Project>
-      <Name>Oculus.Spatializer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{5b484944-c2e7-e1d2-9b6d-8789af4b05f8}</Project>
-      <Name>Oculus.VR.Editor</Name>
+    <ProjectReference Include="Oculus.LipSync.csproj">
+      <Project>{6ef70204-ebc1-d513-9a52-c8a650c3c573}</Project>
+      <Name>Oculus.LipSync</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
