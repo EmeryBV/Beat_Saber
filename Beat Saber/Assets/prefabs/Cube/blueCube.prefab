@@ -173,7 +173,6 @@ GameObject:
   - component: {fileID: 7236300872498039958}
   - component: {fileID: 6879892359829549835}
   - component: {fileID: 7563498420340096201}
-  - component: {fileID: 8548744024318546065}
   m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
@@ -244,20 +243,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8548744024318546065
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3888703660808244286}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &5821287621244319672
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,9 +417,10 @@ GameObject:
   - component: {fileID: 7041213338502340925}
   - component: {fileID: 2611749998456285658}
   - component: {fileID: 7971771299583494754}
+  - component: {fileID: -2359109774508776009}
   m_Layer: 7
   m_Name: blueCube
-  m_TagString: Untagged
+  m_TagString: blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -524,6 +510,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9707d503bcfb35947a022abac0556f9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-2359109774508776009
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7454340807178209322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 18.92193, y: 18.897644, z: 18.946207}
+  m_Center: {x: -0.030988693, y: 0.035735607, z: -0.00001335144}
 --- !u!1 &7759889480979935101
 GameObject:
   m_ObjectHideFlags: 0
