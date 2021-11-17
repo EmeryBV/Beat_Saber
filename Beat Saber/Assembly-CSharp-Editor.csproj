@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_19;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Gradle\Editor\Utils.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Editor\OVROverlayCanvasEditor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildSamples.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\OculusSampleFrameworkUtil.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Gradle\Editor\Utils.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Editor\BuildAssetPackages.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Firebase\Editor\FirebaseEnabler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Editor\AndroidVideoEditorUtil.cs" />
@@ -292,20 +292,23 @@
  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.9.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -656,46 +659,106 @@
  <HintPath>/home/bourget-vecchio/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Interaction.Toolkit">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <Reference Include="Unity.InputSystem">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.MockHMD.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.MockHMD.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.MockHMD">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.MockHMD.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.OpenXR.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.OpenXR">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Oculus.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Oculus">
+ <HintPath>/home/bourget-vecchio/Documents/Master_IMAGINA/M2/VR/Projet VR/Beat_Saber/Beat Saber/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -715,21 +778,29 @@
       <Project>{9f18f399-0463-e921-ad03-81db624f1e13}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{5fc21574-510a-8a7c-6105-f162e85261ad}</Project>
-      <Name>Oculus.AudioManager.Audio.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{7257846d-f481-4ed4-cead-f817baed1f15}</Project>
       <Name>Oculus.Platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Spatializer.csproj">
+      <Project>{6c6fa795-ddbc-c885-9d04-c5ec8a50ab5b}</Project>
+      <Name>Oculus.Spatializer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{f70ba6bc-3a12-e730-0039-46cdd4174c95}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.Editor.csproj">
+      <Project>{cd91758a-5263-f315-d509-4a4d35998577}</Project>
+      <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{92fcf913-f91c-d91f-9767-1c2456db768e}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{6c6fa795-ddbc-c885-9d04-c5ec8a50ab5b}</Project>
-      <Name>Oculus.Spatializer</Name>
+    <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
+      <Project>{5fc21574-510a-8a7c-6105-f162e85261ad}</Project>
+      <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{faf2acd3-eee2-2fb0-f0b4-228477294f44}</Project>
@@ -738,14 +809,6 @@
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
       <Project>{1330c99e-b4a5-c3cf-c9a9-64f61990e9b3}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{cd91758a-5263-f315-d509-4a4d35998577}</Project>
-      <Name>Oculus.Platform.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{f70ba6bc-3a12-e730-0039-46cdd4174c95}</Project>
-      <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
       <Project>{6ef70204-ebc1-d513-9a52-c8a650c3c573}</Project>
