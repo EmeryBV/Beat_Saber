@@ -15,25 +15,27 @@ public class effectMultiplicator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if(gameData.multiplicatorChange)
         RunCo();
     }
 
     private IEnumerator Pulse()
     {
-        for ( float i = 10; i <=100;i+=1)
+        for ( float i = 1.0f; i <=1.4f; i+=0.05f)
         {
             multiplicator.rectTransform.localScale = new Vector3(i, i, i);
             yield return new WaitForEndOfFrame();
         }
         int multiplicatorNumber = gameData.multiplierCurrent;
         multiplicator.text= multiplicatorNumber.ToString();
-        for ( float i = 100; i <=10;i-=1)
+        for ( float i = 1.4f; i <=1.0f; i-=0.05f)
         {
             multiplicator.rectTransform.localScale = new Vector3(i, i, i);
+            // Debug.Log("here" +i );
             yield return new WaitForEndOfFrame();
         }
         multiplicator.rectTransform.localScale = new Vector3(1f, 1f, 1f);
+        gameData.multiplicatorChange = false;
     }
 
     public void RunCo()

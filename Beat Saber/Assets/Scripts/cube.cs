@@ -14,5 +14,7 @@ public class cube : MonoBehaviour
     void Update()
     {
         transform.position += Time.deltaTime * transform.forward* 2;
+
+
     }
 }
