@@ -39,7 +39,7 @@ public class effectMultiplicator : MonoBehaviour
         }
         multiplicator.rectTransform.localScale = new Vector3(1f, 1f, 1f);
         gameData.multiplicatorChange = false;
-        gameData.multiplierCurrent += 1;
+        // gameData.multiplierCurrent += 1;
         yield return new WaitForSecondsRealtime(1);
     }
 

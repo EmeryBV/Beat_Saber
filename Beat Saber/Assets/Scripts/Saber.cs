@@ -19,14 +19,18 @@ public class Saber : MonoBehaviour
     {
         RaycastHit hit;
         gameData.multiplicatorChange = true;
-        // Debug.Log(Physics.Raycast(transform.position, transform.forward, out hit, 100, layer));
-        if (Physics.Raycast(transform.position, transform.TransformDirection( transform.forward ), out hit, 10, layer))
+        // Debug.DrawRay(transform.position, transform.TransformDirection(transform.forward)*1,Color.green );
+        if (Physics.Raycast(transform.position, transform.TransformDirection( transform.forward ), out hit, 1, layer))
         {
             if (Vector3.Angle(transform.position-previousPos, hit.transform.up) > 130)
             {
+                Debug.Log("hey");
                 GameObject go = Instantiate(ps.gameObject, hit.transform.position, Quaternion.identity );
-                // Destroy( go, 5.0f );
+                ParticleSystem.EmissionModule pt = go.GetComponent<ParticleSystem>().emission;
+                pt.enabled = true;
+                Destroy(go, 5.0f);
                 Destroy(hit.transform.gameObject);
+                
                 if (gameData.succesion >= 10) 
                     gameData.multiplierCurrent = gameData.succesion / 10;
                 
