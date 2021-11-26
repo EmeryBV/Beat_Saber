@@ -10,4 +10,5 @@ public class gameData : MonoBehaviour
     public static bool multiplicatorChange = false;
     public static float maxLife = 100.0f;
     public static float life = 100.0f;
+    public static int difficulty = 1;
 }

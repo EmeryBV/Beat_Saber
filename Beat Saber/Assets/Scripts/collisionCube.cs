@@ -7,12 +7,17 @@ public class collisionCube : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "blue" || other.tag == "red")
+        if (other.CompareTag("blue") || other.CompareTag("red") )
         {
-            Destroy(other.gameObject);
             gameData.succesion = 0;
             gameData.life -= 10;
             gameData.multiplierCurrent = 1;
+            Destroy(other.gameObject);
+
+        }else if (other.CompareTag("bomb"))
+        {
+            Destroy(other.gameObject);
+
         }
     }
 

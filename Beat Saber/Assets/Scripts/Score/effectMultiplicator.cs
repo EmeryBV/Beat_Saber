@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class effectMultiplicator : MonoBehaviour
 {
-    public Text multiplicator;
     
     // Start is called before the first frame update
     void Start()
@@ -24,6 +23,8 @@ public class effectMultiplicator : MonoBehaviour
 
     private IEnumerator Pulse()
     {
+        Text multiplicator = GetComponent<Text>();
+        
         multiplicator.color= new Color(1f, 1f - gameData.multiplierCurrent*0.01f, 1f-gameData.multiplierCurrent*0.01f, 1.0f); 
         for ( float i = 1.0f; i <=1.4f; i+=0.05f)
         {

@@ -17,16 +17,17 @@ public class Spawner : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         float tempo = (60 / beat) * 2;
         if (timer > tempo)
         {
-            GameObject cube =Instantiate(cubes[Random.Range(0, 2)], points[Random.Range(0, points.Length)]);
+            GameObject cube =Instantiate(cubes[Random.Range(0, cubes.Length)], points[Random.Range(0, points.Length)]);
             cube.transform.localPosition = Vector3.zero;
-            cube.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
+            if( ! cube.CompareTag( "bomb" ) )
+                cube.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
             timer -= tempo;
         }
-        
+            
         timer += Time.deltaTime;
     }
 }

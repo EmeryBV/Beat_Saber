@@ -833,9 +833,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 9153216043561962953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9707d503bcfb35947a022abac0556f9b, type: 3}
+  m_Script: {fileID: 11500000, guid: 58074d379f118cf44b954b364edee79d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ps: {fileID: 1180088547564379866, guid: 18076f342a843df459d7eddae7561013, type: 3}
 --- !u!65 &4095361612180600715
 BoxCollider:
   m_ObjectHideFlags: 0

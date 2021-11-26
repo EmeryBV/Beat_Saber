@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.6273585, g: 0.94881284, b: 1, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.02
@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.261
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -289,9 +289,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 109308, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_RootOrder
@@ -902,7 +910,6 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 128
-  ps: {fileID: 1180088547564379866, guid: 18076f342a843df459d7eddae7561013, type: 3}
 --- !u!4 &524918879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 487254, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -2066,7 +2073,6 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 0
-  ps: {fileID: 0}
 --- !u!1 &1203536476 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -2087,7 +2093,6 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 64
-  ps: {fileID: 1180088547564379866, guid: 18076f342a843df459d7eddae7561013, type: 3}
 --- !u!1 &1252052579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,6 +2851,7 @@ MonoBehaviour:
   cubes:
   - {fileID: 7454340807178209322, guid: addd76466a7fb4d49b2c9aa3bd3e1563, type: 3}
   - {fileID: 9153216043561962953, guid: f5787fdc4776b8746a398e9cdb216280, type: 3}
+  - {fileID: 6261080369823179753, guid: 7bac48568650dfc42aea9a6d0488486d, type: 3}
   points:
   - {fileID: 1106435441}
   - {fileID: 63501429}
