@@ -33,8 +33,14 @@ public class CubeScript : MonoBehaviour
     }
     void showParticles()
     {
-        GameObject go = Instantiate(ps.gameObject, transform.position, Quaternion.identity );
+        GameObject go = Instantiate(ps.gameObject, transform.position, Quaternion.identity);
         ParticleSystem.EmissionModule pt = go.GetComponent<ParticleSystem>().emission;
+
+        if (this.CompareTag("blue"))
+        {
+            
+        }
+        
         pt.enabled = true;
         Destroy(go, 5.0f);
     }
