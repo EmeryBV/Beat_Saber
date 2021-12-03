@@ -23,8 +23,8 @@ public class CubeScript : MonoBehaviour
 
     public void addPoints()
     {
-        if (gameData.succesion >= 10) 
-            gameData.multiplierCurrent = gameData.succesion / 10;
+        if (gameData.succesion >= 5) 
+            gameData.multiplierCurrent = gameData.succesion / 5;
                 
         gameData.succesion += 1;
         gameData.score += 10 * gameData.multiplierCurrent;
