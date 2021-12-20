@@ -8,6 +8,7 @@ public class Saber : MonoBehaviour
 
     public LayerMask layer;
     private Vector3 previousPos;
+   
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +36,8 @@ public class Saber : MonoBehaviour
 
                 if( hit.transform.gameObject.CompareTag("blue") || hit.transform.gameObject.CompareTag("red") )
                 {
+                    AudioSource soundDestruction = GetComponent<AudioSource>();
+                    soundDestruction.Play();
                     hit.transform.gameObject.GetComponent<CubeScript>().addPoints();
                 }
                 

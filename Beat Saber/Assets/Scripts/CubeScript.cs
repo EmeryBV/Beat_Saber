@@ -7,7 +7,7 @@ public class CubeScript : MonoBehaviour
 {   
     public ParticleSystem ps;
     public Material color;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +24,7 @@ public class CubeScript : MonoBehaviour
 
     public void addPoints()
     {
+        
         if (gameData.succesion >= 5) 
             gameData.multiplierCurrent = gameData.succesion / 5;
                 
