@@ -6,7 +6,8 @@ using UnityEngine;
 public class CubeScript : MonoBehaviour
 {   
     public ParticleSystem ps;
-
+    public Material color;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,11 +36,11 @@ public class CubeScript : MonoBehaviour
     {
         GameObject go = Instantiate(ps.gameObject, transform.position, Quaternion.identity);
         ParticleSystem.EmissionModule pt = go.GetComponent<ParticleSystem>().emission;
+        ParticleSystemRenderer psRenderer = go.GetComponent<ParticleSystemRenderer>();
 
-        if (this.CompareTag("blue"))
-        {
-            
-        }
+        psRenderer.material = color;
+        
+     
         
         pt.enabled = true;
         Destroy(go, 5.0f);

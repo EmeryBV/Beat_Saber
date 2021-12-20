@@ -25,6 +25,7 @@ public class Spawner : MonoBehaviour
             cube.transform.localPosition = Vector3.zero;
             if( ! cube.CompareTag( "bomb" ) )
                 cube.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
+            
             timer -= tempo;
         }
             
