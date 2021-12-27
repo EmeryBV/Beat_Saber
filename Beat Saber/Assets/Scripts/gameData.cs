@@ -1,7 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Numerics;
 
 public class gameData : MonoBehaviour
 {
@@ -12,4 +11,7 @@ public class gameData : MonoBehaviour
     public static float maxLife = 100.0f;
     public static float life = 100.0f;
     public static int difficulty = 1;
+    public static List<int> scores = new List<int>();
+
 }
+

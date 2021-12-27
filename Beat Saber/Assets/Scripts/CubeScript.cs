@@ -17,7 +17,7 @@ public class CubeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Time.deltaTime * transform.forward* 2;
+        transform.position += Time.deltaTime * transform.forward * 2;
 
 
     }
@@ -42,7 +42,6 @@ public class CubeScript : MonoBehaviour
 
         psRenderer.material = color;
         
-     
         
         pt.enabled = true;
         Destroy(go, 5.0f);
