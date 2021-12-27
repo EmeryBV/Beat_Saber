@@ -8,6 +8,11 @@ TagManager:
   - blue
   - Saber
   - bomb
+  - highscore
+  - exit
+  - play
+  - HighScoreList
+  - return
   layers:
   - Default
   - TransparentFX

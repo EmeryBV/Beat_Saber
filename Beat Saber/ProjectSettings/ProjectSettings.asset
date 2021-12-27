@@ -143,8 +143,28 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 1305563ed33b3b8498cb8839df84b9cb, type: 2}
-  - {fileID: 7000802738507691797, guid: 47b2dc9226123304a983ec14ea0f7484, type: 2}
+  - {fileID: 609682575931962696, guid: 47b2dc9226123304a983ec14ea0f7484, type: 2}
   - {fileID: 11400000, guid: 1447aa9775b4d844e87152bd09cfb418, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -794,7 +814,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 1
+  activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

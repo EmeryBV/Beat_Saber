@@ -24,6 +24,7 @@ public class BombScript : MonoBehaviour
     }
     public void removePoints()
     {
+        AudioSource explosion = GetComponent<AudioSource>();
         gameData.score -= penalty * gameData.difficulty;
         gameData.multiplierCurrent = 0;
         showParticles();

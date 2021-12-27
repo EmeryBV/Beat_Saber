@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8660562123704962296}
   - component: {fileID: 2824047210883821939}
   - component: {fileID: 7164337101041659359}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: rope
-  m_TagString: Untagged
+  m_TagString: bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,9 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032858367330096674}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6748648168605038931}
   m_RootOrder: 2
@@ -52,7 +51,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -94,9 +92,9 @@ GameObject:
   - component: {fileID: 2915288099255625387}
   - component: {fileID: 2282951048370325782}
   - component: {fileID: 4340538659121024553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bomb_top
-  m_TagString: Untagged
+  m_TagString: bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,9 +107,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3181982930515524324}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6748648168605038931}
   m_RootOrder: 1
@@ -135,7 +132,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -177,9 +173,9 @@ GameObject:
   - component: {fileID: 8447856472037662343}
   - component: {fileID: 8377482883919820127}
   - component: {fileID: 7199633341316857361}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: whick
-  m_TagString: Untagged
+  m_TagString: bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +190,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6748648168605038931}
   m_RootOrder: 3
@@ -218,7 +213,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -260,9 +254,9 @@ GameObject:
   - component: {fileID: 3087783601671108263}
   - component: {fileID: 4744941522330372498}
   - component: {fileID: 2401610331716916069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bomb_body
-  m_TagString: Untagged
+  m_TagString: bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,9 +269,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5432340191411114921}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6748648168605038931}
   m_RootOrder: 0
@@ -301,7 +294,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -342,8 +334,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6748648168605038931}
   - component: {fileID: -6720378404024764690}
-  - component: {fileID: 7304877183566738093}
-  m_Layer: 0
+  - component: {fileID: 250147731954757060}
+  m_Layer: 8
   m_Name: bomb
   m_TagString: bomb
   m_Icon: {fileID: 0}
@@ -360,7 +352,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.962, y: -12.617, z: 3.26}
   m_LocalScale: {x: 0.0015125945, y: 0.0015125945, z: 0.0015125945}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3087783601671108263}
   - {fileID: 2915288099255625387}
@@ -383,8 +374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   penalty: 10
   ps: {fileID: 1180088547564379866, guid: 18076f342a843df459d7eddae7561013, type: 3}
---- !u!65 &7304877183566738093
-BoxCollider:
+--- !u!135 &250147731954757060
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -394,5 +385,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 102.76
+  m_Center: {x: -4.599999, y: 44.25015, z: 0}

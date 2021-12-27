@@ -32,6 +32,7 @@ public class CubeScript : MonoBehaviour
         gameData.score += 10 * gameData.multiplierCurrent;
         
         showParticles();
+        
     }
     void showParticles()
     {
@@ -45,6 +46,7 @@ public class CubeScript : MonoBehaviour
         
         pt.enabled = true;
         Destroy(go, 5.0f);
+       
     }
 
     private void OnDestroy()
