@@ -13,5 +13,13 @@ public class gameData : MonoBehaviour
     public static int difficulty = 1;
     public static List<int> scores = new List<int>();
 
+    public static void resetGameData()
+    {
+        score = 0;
+        succesion = 0;
+        multiplierCurrent = 0;
+        
+
+    }
 }
 

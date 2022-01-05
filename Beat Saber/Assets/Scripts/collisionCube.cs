@@ -14,7 +14,8 @@ public class collisionCube : MonoBehaviour
             PlaySoundInterval(0.0f,1.0f);
             gameData.succesion = 0;
             gameData.life -= 10;
-            gameData.multiplierCurrent = 1;
+            if(gameData.multiplierCurrent!=1)
+            gameData.multiplierCurrent /= 2;
             Destroy(other.gameObject);
 
         }else if (other.CompareTag("bomb"))

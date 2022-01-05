@@ -18,16 +18,19 @@ public class CubeScript : MonoBehaviour
     void Update()
     {
         transform.position += Time.deltaTime * transform.forward * 2;
-
-
+        
     }
 
     public void addPoints()
     {
-        
-        if (gameData.succesion >= 5) 
-            gameData.multiplierCurrent = gameData.succesion / 5;
-                
+
+        if (gameData.succesion >= 5)
+        {
+            gameData.multiplierCurrent += 1;
+            gameData.succesion = 0;
+        }
+
+
         gameData.succesion += 1;
         gameData.score += 10 * gameData.multiplierCurrent;
         

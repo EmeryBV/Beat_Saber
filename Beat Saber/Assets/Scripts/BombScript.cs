@@ -26,7 +26,7 @@ public class BombScript : MonoBehaviour
     {
         AudioSource explosion = GetComponent<AudioSource>();
         gameData.score -= penalty * gameData.difficulty;
-        gameData.multiplierCurrent = 0;
+        gameData.multiplierCurrent = 1;
         showParticles();
     }
     void showParticles()

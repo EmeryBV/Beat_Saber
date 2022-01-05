@@ -21,6 +21,7 @@ public class PhysicsPointer : MonoBehaviour
     private void Start()
     {
         audio = GetComponent<AudioSource>();
+        Save.load();
     }
     private void Update()
     {
@@ -40,13 +41,13 @@ public class PhysicsPointer : MonoBehaviour
 
         if (hit.collider)
         {
-            
             endPosition = hit.point;
             bool putButton = false;
             if (OVRInput.Get(OVRInput.Button.One)&& !putButton)
             {
                 if(hit.collider.CompareTag("play"))
                 {
+                    gameData.resetGameData();
                     StartCoroutine(LoadSceneAsync("Game"));
 
                 }else if (hit.collider.CompareTag("highscore"))
@@ -96,9 +97,6 @@ public class PhysicsPointer : MonoBehaviour
 
     public void playSound(RaycastHit hit)
     {
-        Debug.Log( "tag = " + hit);
-        Debug.Log( "predHit = " + predHit);
-      
         if (hit.collider.tag != predHit)
         {
             audio.PlayOneShot(cursorOnButton);

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Saber : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Saber : MonoBehaviour
     private Vector3 previousPos;
 
     public AudioClip explosion;
-    public AudioClip laser;
+    public AudioClip[] hitSound;
     public AudioSource audio;
     
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class Saber : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(transform.forward), out hit, 1, layer))
         {
 
-            Debug.Log(hit.transform.tag);
+            // Debug.Log(hit.transform.tag);
             if (hit.transform.gameObject.CompareTag("bomb"))
             {
                 PlaySoundInterval(explosion,0.0f,0.2f);
@@ -42,7 +43,7 @@ public class Saber : MonoBehaviour
                    
                     if (hit.transform.gameObject.CompareTag("blue") || hit.transform.gameObject.CompareTag("red"))
                     {
-                        audio.PlayOneShot(laser);
+                        audio.PlayOneShot(hitSound[Random.Range(0,hitSound.Length-1)]);
                         hit.transform.gameObject.GetComponent<CubeScript>().addPoints();
 
                     }
