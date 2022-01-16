@@ -429,11 +429,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1220590354869381027, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_Volume
-      value: 0.461
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2746988419995457614, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_Volume
-      value: 0.461
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4480914263685613147, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: hitSound.Array.size
@@ -1523,7 +1523,6 @@ GameObject:
   - component: {fileID: 532688967}
   - component: {fileID: 532688966}
   - component: {fileID: 532688970}
-  - component: {fileID: 532688969}
   m_Layer: 5
   m_Name: multiplicator
   m_TagString: Untagged
@@ -1604,18 +1603,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532688964}
   m_CullTransparentMesh: 1
---- !u!114 &532688969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532688964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6dc8c89054a2e43669478dea65df645b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &532688970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2422,7 +2409,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ddc19aab58151d245bb63fe91a4c40fd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 81c8829863128024cb78512f58bb5978, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.093
   m_Pitch: 1

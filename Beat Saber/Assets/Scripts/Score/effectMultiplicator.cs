@@ -25,7 +25,7 @@ public class effectMultiplicator : MonoBehaviour
     {
         Text multiplicator = GetComponent<Text>();
         
-        multiplicator.color= new Color(1f, 1f - gameData.multiplierCurrent*0.01f, 1f-gameData.multiplierCurrent*0.01f, 1.0f); 
+        multiplicator.color= new Color(1f, 1f - gameData.multiplierCurrent*0.10f, 1f-gameData.multiplierCurrent*0.10f, 1.0f); 
         for ( float i = 1.0f; i <=1.4f; i+=0.05f)
         {
             multiplicator.rectTransform.localScale = new Vector3(i, i, i);
